@@ -11,13 +11,13 @@ export default function App() {
     try {
       // Fetch data from server
       //Change this address accoriding the the link you see when running server.py in backend
-      const dataResponse = await fetch('http://192.168.1.11:8080/data/12345');
+      const dataResponse = await fetch('ENTER THE URL PROVIDED TO YOU AFTER RUNNING server.py/data/12345');
       const dataJson = await dataResponse.json();
 
       // Set image from server
       //Change this address accoriding the the link you see when running server.py in backend
       setData(dataJson);
-      setImageUri('http://192.168.1.11:8080/image/12345');
+      setImageUri('ENTER THE URL PROVIDED TO YOU AFTER RUNNING server.py/image/12345');
       setLoading(false);
     } catch (error) {
       console.error('Error fetching data or image:', error);

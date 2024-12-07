@@ -1,6 +1,6 @@
 # SmartPark Front End
 
-This project is a React Native application that fetches data from the SmartPark back-end repository. It gathers real-time parking lot data and displays it for the user. The app periodically updates the data every 30 seconds to ensure the user has the most current information.
+This project is a React Native application that fetches data from the [SmartPark back-end repository](https://github.com/ParjanAmeen/SmartPark-BackEnd). It gathers real-time parking lot data and displays it for the user. The app periodically updates the data every 30 seconds to ensure the user has the most current information.
 
 ## How to Run Front End
 

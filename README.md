@@ -11,7 +11,7 @@ This project is a React Native application that fetches data from the [SmartPark
 5. Run `sudo gem install cocoapods`.
 6. Run `npm install -g expo-cli`.
 7. Run `npm install`.
-8. Go to the `App.js` file and change the links you see on lines 14 and 20. Replace the links with the link you used from the terminal after running `server.py` (which should still be running you want to keep this up).
+8. Go to the `App.js` file and change the links you see on lines 14 and 20. Replace the links with the link you used from the terminal after running `server.py` in [SmartPark back-end repository](https://github.com/ParjanAmeen/SmartPark-BackEnd) (which should still be running you want to keep this up).
    - Replace everything in the link before `/data/12345` on line 14.
    - Replace everything in the link before `/image/12345` on line 20.
 9. Run `npm start`.
